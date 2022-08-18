@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="artem.FXMLMainFormController">
+   <children>
+      <AnchorPane prefHeight="149.0" prefWidth="600.0" style="-fx-background-color: black;">
+         <children>
+            <TextField fx:id="getCity" layoutX="317.0" layoutY="53.0" prefHeight="43.0" prefWidth="240.0" />
+            <Text fill="WHITE" layoutX="49.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ВВЕДИТЕ ГОРОД:">
+               <font>
+                  <Font name="Times New Roman Bold" size="24.0" />
+               </font>
+            </Text>
+            <Button fx:id="OK_button" layoutX="421.0" layoutY="110.0" mnemonicParsing="false" text="ОК" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="149.0" prefHeight="250.0" prefWidth="600.0" style="-fx-background-color: #778899;">
+         <children>
+            <Text fx:id="Information" fill="#ee0000" layoutX="240.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ИНФОРМАЦИЯ:" wrappingWidth="168.13671875">
+               <font>
+                  <Font name="Palatino Linotype Bold Italic" size="19.0" />
+               </font>
+            </Text>
+            <Text fx:id="Temperature" fill="#f50000" fontSmoothingType="LCD" layoutX="25.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ТЕМПЕРАТУРА">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="Feels" fill="#fc0000" layoutX="25.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ОЩУЩАЕТСЯ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="Humidity" fill="RED" layoutX="25.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ВЛАЖНОСТЬ">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="Time" fill="RED" layoutX="25.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ВРЕМЯ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="Visibility" fill="RED" layoutX="25.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ВИДИМОСТЬ">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
